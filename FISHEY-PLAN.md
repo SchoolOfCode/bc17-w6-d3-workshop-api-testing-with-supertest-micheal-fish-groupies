@@ -26,3 +26,15 @@ to inject SQL to seed data and tables
 ## What's the purpose of the `vitest.config.js` file?
 
 - setup config files
+
+# Ticket 2 - Setup
+- Familiarising yourself with an existing codebase Y
+- Install the project's existing dependencies (listed in the package.json) Y
+- Install Vitest and Supertest both as dev dependencies. Y
+- Set up a PostgreSQL database Y
+- Then create a .env file at the root of this repository and within it add a line: DATABASE_URL=REPLACE_ME_WITH_YOUR_CONNECTION_STRING Y
+
+# Ticket 3 - Test Skeleton
+- create users.test.js within users folder
+- within users.test.js write a bare bones test (the test name can be "GET /api/health works" and the test callback can be left empty)
+
