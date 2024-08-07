@@ -20,6 +20,9 @@ to inject SQL to seed data and tables
 - .router.js interacts with .controller.js, which in turn interacts with .model.js, which then interacts with .index.js (the pool to talk to the database)
 
 ## What endpoints/operations does the API support?
-- 
+- /api/users - GET, POST
+/api/users/:id - GET, DELETE
 
 ## What's the purpose of the `vitest.config.js` file?
+
+- setup config files
